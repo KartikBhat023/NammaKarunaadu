@@ -1,0 +1,18 @@
+#bg {
+background: url("karnataka_1.png") no-repeat center center fixed;
+}
+#button {
+		font-size:35px;
+		text-align:center;
+		width:300px;
+		height:60px;
+		background:lightgreen;
+        position: fixed;
+        left: 40%;
+        top: 50%;
+		box-shadow:5px;
+		border-radius: 10px;
+		box-shadow:10px 10px 7px lightblue,10px -10px 7px lightblue,-10px 10px 7px lightblue,-10px -10px 7px lightblue;
+		cursor:pointer;
+}
+

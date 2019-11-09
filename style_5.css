@@ -1,0 +1,175 @@
+html {
+background:url(Images/good.jpg) no-repeat center center fixed;
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+}
+
+@keyframes move {
+	0% {
+		top:-5%;
+	}
+	50% {
+		top:-2%;
+	}
+}
+
+@keyframes glow_1 {
+	0%{
+	//text-shadow:-8px 0px px gold ,8px 0px 4px gold ,0px -8px 4px gold ,0px 8px 4px gold ;
+	text-shadow:-8px 0px 3px gold ,8px 0px 3px gold ,0px -8px 3px gold ,0px 8px 3px gold ;
+	text-shadow:-4px 0px 3px gold ,4px 0px 3px gold ,0px -4px 3px gold ,0px 4px 3px gold ;
+	}
+	10% {
+	text-shadow:-8px 0px 6px gold ,8px 0px 6px gold ,0px -8px 6px gold ,0px 8px 6px gold ;
+	text-shadow:-4px 0px 6px gold ,4px 0px 6px gold ,0px -4px 6px gold ,0px 4px 6px gold ;
+	}
+	20% {
+	text-shadow:-8px 0px 9px gold ,8px 0px 9px gold ,0px -8px 9px gold ,0px 8px 9px gold ;
+	text-shadow:-4px 0px 9px gold ,4px 0px 9px gold ,0px -4px 9px gold ,0px 4px 9px gold ;
+	}
+	30% {
+	text-shadow:-8px 0px 12px gold ,8px 0px 12px gold ,0px -8px 12px gold ,0px 8px 12px gold ;
+	text-shadow:-4px 0px 12px gold ,4px 0px 12px gold ,0px -4px 12px gold ,0px 4px 12px gold ;
+	}
+	40% {
+	text-shadow:-8px 0px 15px gold ,8px 0px 15px gold ,0px -8px 15px gold ,0px 8px 15px gold ;
+	text-shadow:-4px 0px 15px gold ,4px 0px 15px gold ,0px -4px 15px gold ,0px 4px 15px gold ;
+	}
+	50% {
+	text-shadow:-8px 0px 18px gold ,8px 0px 18px gold ,0px -8px 18px gold ,0px 8px 18px gold ;
+	text-shadow:-4px 0px 18px gold ,4px 0px 18px gold ,0px -4px 18px gold ,0px 4px 18px gold ;
+	}
+	60% {
+	text-shadow:-8px 0px 15px gold ,8px 0px 15px gold ,0px -8px 15px gold ,0px 8px 15px gold ;
+	text-shadow:-4px 0px 15px gold ,4px 0px 15px gold ,0px -4px 15px gold ,0px 4px 15px gold ;
+	}
+	70% {
+	text-shadow:-8px 0px 12px gold ,8px 0px 12px gold ,0px -8px 12px gold ,0px 8px 12px gold ;
+	text-shadow:-4px 0px 12px gold ,4px 0px 12px gold ,0px -4px 12px gold ,0px 4px 12px gold ;
+	}
+	80% {
+	text-shadow:-8px 0px 9px gold ,8px 0px 9px gold ,0px -8px 9px gold ,0px 8px 9px gold ;
+	text-shadow:-4px 0px 9px gold ,4px 0px 9px gold ,0px -4px 9px gold ,0px 4px 9px gold ;
+	}
+	90% {
+	text-shadow:-8px 0px 6px gold ,8px 0px 6px gold ,0px -8px 6px gold ,0px 8px 6px gold ;
+	text-shadow:-4px 0px 6px gold ,4px 0px 6px gold ,0px -4px 6px gold ,0px 4px 6px gold ;
+	}
+}
+
+#info{
+border-radius:25px;
+position:absolute;
+left:70%;
+top:-5%;
+color:yellow;
+background-color:blue;
+animation: move 3s infinite;
+-webkit-touch-callout:none;
+-webkit-user-select:none;
+-moz-user-select:none;
+user-select:none;
+cursor:none;
+}
+
+#abt_us {
+font-size:22px;
+text-align:center;
+text-shadow: 2px 2px 2px Chartreuse,2px -2px 2px Chartreuse,-2px 2px 2px Chartreuse,-2px -2px 2px Chartreuse;
+width:75px;
+height:75px;
+border-radius:50px;
+position:absolute;
+right:0.25%;
+top:1.5%;
+color:purple;
+background-color:BurlyWood;
+opacity:0.4;
+-webkit-touch-callout:none;
+-webkit-user-select:none;
+-moz-user-select:none;
+user-select:none;
+}
+
+#abt_us:hover {
+cursor:pointer;
+opacity:1.0;
+box-shadow:5px 5px -2px green;
+}
+
+#com {
+font-size:25px;
+position:fixed;
+left:250px;
+top:28px;
+color:red;
+}
+
+#name {
+font-size:35px;
+position:fixed;
+left:30px;
+top:1px;
+color:red;
+animation:glow_1 2s infinite;
+-webkit-touch-callout:none;
+-webkit-user-select:none;
+-moz-user-select:none;
+user-select:none;
+}
+
+#my {
+position:fixed;
+right:20px;
+bottom:5px;
+font-size:20px;
+color:white;
+opacity:0.2;
+cursor:none;
+-webkit-touch-callout:none;
+-webkit-user-select:none;
+-moz-user-select:none;
+user-select:none;
+}
+
+tr {
+text-align:center;
+font-size:20px;
+font-weight:bold;
+color:#e86af0;
+}
+td:hover {
+background-color: azure;
+cursor:pointer;
+}
+
+table {
+table-layout:fixed;
+width:50%;
+position : absolute;
+left:45%;
+top:7%;
+border:none;
+}
+
+td {
+border: 1px solid black;
+border-radius: 25px;
+}
+
+.dist_pos {
+position:fixed;
+top:8%;
+left:8%;
+height:550px;
+width:28%;
+}
+
+#dist_1,#dist_2,#dist_3,#dist_4,#dist_5,#dist_6,#dist_7,#dist_8,#dist_9,#dist_10,#dist_11,#dist_12 ,#dist_13,#dist_14,#dist_15,#dist_16,#dist_17,#dist_18,#dist_19,#dist_20,#dist_21,#dist_22,#dist_23,#dist_24,#dist_25,#dist_26,#dist_27,#dist_28,#dist_29,#dist_30{
+opacity:0;
+}
+
+#kar {
+opacity:1;
+}
